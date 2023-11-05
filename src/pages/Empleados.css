@@ -1,0 +1,22 @@
+.bi-person-plus{
+    position: absolute;
+    right: -25px;
+    top: 5px;
+    padding: 11px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--color-blanco);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+.bi-person-plus:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bi-person-plus-final{
+    right: 5px;
+    opacity: 1;
+    pointer-events: all;
+}

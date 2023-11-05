@@ -1,0 +1,85 @@
+/*HOJA DE ESTILOS GLOBAL*/
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@900&family=Poppins:wght@200;400;700;900&display=swap');
+
+:root {
+  --color1: #F21D92;
+  --color2: #8844A6;
+  --color3: #049DBF;
+  --color4: #1AD927;
+  --color5: #F2CB05;
+  --color-blanco: #FFFFFF;
+  --color-negro: #000000;
+  --color-gris-oscuro: #333333;
+  --color-gris-claro: #CCCCCC;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: -2px;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+#nosotros {
+  background-color: var(--color-negro);
+  color: var(--color-gris-claro);
+}
+
+#historia {
+  background-color: var(--color5);
+}
+
+#main-footer {
+  background-color: var(--color-gris-oscuro);
+  color: var(--color-gris-claro);
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.padded {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.eliminar-item{
+  cursor: pointer;
+}
+
+.eliminar-item:hover{
+  color: var(--color1);
+}
+
+.nav-link.active{
+  border-bottom: solid 1px #000000;
+}
+
+a {  
+  text-decoration: none;
+}
+
+@media (min-width: 1680px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 1600px !important;    
+  }
+
+
+}

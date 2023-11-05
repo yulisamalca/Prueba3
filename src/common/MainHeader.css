@@ -1,0 +1,17 @@
+/*
+#main-header {
+    background-color: var(--color3);
+    color: var(--color-blanco);
+}
+
+#main-header p {
+    margin-bottom: 0;
+}*/
+#main-header .container{
+    text-align: center;
+}
+
+#logo{
+    width: 250px;
+    margin: 0px;
+}
